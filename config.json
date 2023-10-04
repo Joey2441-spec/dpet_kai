@@ -1,0 +1,251 @@
+{
+  "idle": {
+      "imgs": [
+          "/shime1.png",
+          "/shime1b.png",
+          "/shime1a.png",
+          "/shime1b.png",
+          "/shime1.png",
+          "/shime1b.png",
+          "/shime1a.png",
+          "/shime1b.png",
+          "/shime1.png"
+      ],
+      "speed": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "duration": [50, 1, 2, 1, 15, 1, 2, 1, 50]
+  },
+  "walk": {
+      "imgs": [
+          "/shime1.png",
+          "/shime2.png",
+          "/shime1.png",
+          "/shime3.png"
+      ],
+      "speed": [-2, -2, -2, -2],
+      "duration": [6, 6, 6, 6]
+  },
+  "run": {
+      "imgs": [
+          "/shime1.png",
+          "/shime2.png",
+          "/shime1.png",
+          "/shime3.png"
+      ],
+      "speed": [-4, -4, -4, -4],
+      "duration": [2, 2, 2, 2]
+  },
+  "dash": {
+      "imgs": [
+          "/shime1.png",
+          "/shime2.png",
+          "/shime1.png",
+          "/shime3.png"
+      ],
+      "speed": [-8, -8, -8, -8],
+      "duration": [2, 2, 2, 2]
+  },
+  "sit": {
+      "imgs": [
+          "/shime11.png",
+          "/shime11c.png",
+          "/shime11b.png",
+          "/shime11c.png",
+          "/shime11.png"
+      ],
+      "speed": [0, 0, 0, 0, 0],
+      "duration": [50, 1, 2, 1, 100]
+  },
+  "sit_lookup": {
+      "imgs": [
+          "/shime26.png"
+      ],
+      "speed": [0],
+      "duration": [250]
+  },
+  "sitAndSpinHeadAction": {
+      "imgs": [
+          "/shime26.png",
+          "/shime15.png",
+          "/shime27.png",
+          "/shime16.png",
+          "/shime28.png",
+          "/shime17.png",
+          "/shime29.png",
+          "/shime11.png"
+      ],
+      "speed": [0, 0, 0, 0, 0, 0, 0, 0],
+      "duration": [5, 5, 5, 5, 5, 5, 5, 5]
+  },
+  "sitWithLegsDown": {
+      "imgs": [
+          "/shime31.png"
+      ],
+      "speed": [0],
+      "duration": [250]
+  },
+  "sittingAndTurningTheNeck": {
+      "imgs": [
+          "/shime26.png",
+          "/shime15.png",
+          "/shime27.png",
+          "/shime16.png",
+          "/shime28.png",
+          "/shime17.png",
+          "/shime29.png",
+          "/shime11.png"
+      ],
+      "speed": [0, 0, 0, 0, 0, 0, 0, 0],
+      "duration": [5, 5, 5, 5, 5, 5, 100, 5]
+  },
+  "sprawl": {
+      "imgs": [
+          "/shime21.png"
+      ],
+      "speed": [0],
+      "duration": [250]
+  },
+  "creep": {
+      "imgs": [
+          "/shime20.png",
+          "/shime20.png",
+          "/shime21.png",
+          "/shime21.png",
+          "/shime21.png"
+      ],
+      "speed": [0, -2, -2, -1, 0],
+      "duration": [28, 4, 4, 4, 24]
+  },
+  "grabCeiling": {
+      "imgs": [
+          "/shime23.png"
+      ],
+      "speed": [0],
+      "duration": [250]
+  },
+  "climbCeiling": {
+      "imgs": [
+          "/shime25.png",
+          "/shime25.png",
+          "/shime23.png",
+          "/shime24.png",
+          "/shime24.png",
+          "/shime24.png",
+          "/shime23.png",
+          "/shime25.png"
+      ],
+      "speed": [0, -1, -1, -1, 0, -2, -2, -2],
+      "duration": [16, 4, 4, 4, 16, 4, 4, 4]
+  },
+  "grabWall": {
+      "imgs": [
+          "/shime13.png"
+      ],
+      "speed": [0],
+      "duration": [250]
+  },
+  "climbWall": {
+      "imgs": [
+          "/shime14.png",
+          "/shime14.png",
+          "/shime12.png",
+          "/shime13.png",
+          "/shime13.png",
+          "/shime13.png",
+          "/shime12.png",
+          "/shime14.png"
+      ],
+      "speed":[0, -1, -1, -1, 0, -2, -2, -2],
+      "duration": [16, 4, 4, 4, 16, 4, 4, 4]
+  },
+  "throwIe": {
+      "imgs": [
+          "/shime37.png"
+      ],
+      "speed": [0],
+      "duration": [40]
+  },
+  "jumping": {
+      "imgs": [
+          "/shime22.png"
+      ],
+      "speed": [0],
+      "duration": [250]
+  },
+  "falling": {
+      "imgs": [
+          "/shime4.png"
+      ],
+      "speed": [0],
+      "duration": [250]
+  },
+  "bouncing": {
+      "imgs": [
+          "/shime18.png",
+          "/shime19.png"
+      ],
+      "speed": [0,0],
+      "duration": [4,4]
+  },
+  "pinched": {
+      "imgs": [
+          "/shime9.png",
+          "/shime7.png",
+          "/shime5.png",
+          "/shime1.png",
+          "/shime6.png",
+          "/shime8.png",
+          "/shime10.png"
+      ],
+      "speed": [0, 0, 0, 0, 0, 0, 0],
+      "duration": [5, 5, 5, 5, 5, 5, 5]
+  },
+  "resisting": {
+      "imgs": [
+          "/shime5.png",
+          "/shime6.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime1.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime1.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime5.png",
+          "/shime6.png",
+          "/shime5.png",
+          "/shime6.png"
+      ],
+      "speed": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "duration": [5, 5, 5, 5, 50, 5, 5, 5, 5, 5, 5, 5, 100, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 2, 2, 2, 2, 2, 2, 2, 2]
+  },
+  "divide1": {
+      "imgs": [
+          "/shime42.png",
+          "/shime43.png",
+          "/shime44.png",
+          "/shime45.png",
+          "/shime46.png"
+      ],
+      "speed":[0, 0, 0, 0, 0],
+      "duration": [5, 2, 2, 5, 20]
+  }
+}

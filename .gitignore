@@ -1,1 +1,7 @@
 env
+.vscode
+doc.py
+main.py
+settings.json
+__pycache__
+temp.py
