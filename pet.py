@@ -1,3 +1,5 @@
+import time
+
 """
 Holds information about the pet state
 Manages the shifting of the window to mimic movement
@@ -22,7 +24,7 @@ class Pet:
     # current index
     self.current_index = 0
 
-  def move(self):
+  def move(self, repeat):
     self.current_index = (self.current_index + 1) % len(self.speed)
     current_speed = self.speed[self.current_index]
     current_duration = self.duration[self.current_index]
@@ -33,7 +35,8 @@ class Pet:
     match self.direction:
       case 'left':
         current_position = self.window.winfo_x()
-        new_position = current_position + current_speed
+        new_position = current_position + current_speed - 20
+        print(new_position)
       case 'right':
         current_position = self.window.winfo_x()
         new_position = current_position - current_speed
@@ -61,7 +64,10 @@ class Pet:
     elif (self.direction == 'up' or self.direction == 'down'):
       self.window.geometry(f"+{self.window.winfo_x()}+{new_position}")
 
-    self.current_state = self.window.after(current_duration * 15, self.move)
+    if (repeat == True):
+      self.current_state = self.window.after(current_duration * 15, lambda: self.move(True))
+    else:
+      time.sleep((current_duration / 1000) * 15)
 
 
   def change_state_data(self, orientation, direction, speed, duration):

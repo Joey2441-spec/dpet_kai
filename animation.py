@@ -15,11 +15,11 @@ class Animation:
     # holds the window.after
     self.current_animation_handle = 'none'
     # used in the case we need to invert the images
-    self.direction = 'none'
+    self.facing_direction = 'none'
 
     # image data
     self.img_frames = []
-    self.img_inverted = []
+    self.img_inverted = [] # if necessary 
     self.img_duration = []
     self.img_speed = []
     self.current_frame_index = 0
@@ -33,7 +33,7 @@ class Animation:
     # all information on which animation is given from change_animation
     self.current_frame_index = (self.current_frame_index + 1) % len(self.img_frames)
 
-    if self.direction == 'right': 
+    if self.facing_direction == 'right': 
       self.image_label.config(image=self.img_inverted[self.current_frame_index])
     else:
       self.current_frame = self.img_frames[self.current_frame_index]
@@ -52,12 +52,10 @@ class Animation:
 
   def change_animation(self, direction, imgs, duration):
     self.current_frame_index = 0
-    self.direction = direction
+    self.facing_direction = direction
     self.img_frames = imgs
-    self.img_duration = duration
+    self.img_duration = duration 
     self.img_inverted = []
-
-
 
   def remove_animation(self):
     if (self.current_animation_handle != 'none'):
